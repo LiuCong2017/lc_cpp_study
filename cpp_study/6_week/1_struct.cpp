@@ -2,6 +2,7 @@
 // Created by Administrator on 2022/3/10.
 //
 #include <string.h>
+#include <stdio.h>
 
 struct Student
 {
@@ -14,6 +15,11 @@ int AddStudentScore(Student &c, double value)
 {
     c.score +=  value;
     return 1;
+}
+
+void PrintStudentInfo(const Student &c)
+{
+    printf("%s\n",c.name);
 }
 
 int main()
