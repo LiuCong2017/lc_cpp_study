@@ -6,6 +6,7 @@
 struct Student
 {
     char name[20];
+    char gender;
     double score;
 };
 
@@ -13,6 +14,7 @@ int main()
 {
     Student a;
     strcpy(a.name,"Eva");
+    a.gender = 'M';
     a.score = 100;
 
 }
