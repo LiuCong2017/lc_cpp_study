@@ -3,4 +3,4 @@ project(lc_cpp_study)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(lc_cpp_study cpp_study/5_week/5_pointerSort.cpp)
+add_executable(lc_cpp_study cpp_study/6_week/1_struct.cpp)
