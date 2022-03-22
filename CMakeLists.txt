@@ -3,4 +3,4 @@ project(lc_cpp_study)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(lc_cpp_study cpp_study/6_week/3_class.cpp)
+add_executable(lc_cpp_study cpp_study/7_week/2_classExample.cpp)
